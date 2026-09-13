@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monitor do PPA | Coren-GO</title>
+
+    <meta
+        name="description"
+        content="Projeto piloto de monitoramento estratégico, orçamentário, financeiro e de custos do PPA do Coren-GO."
+    >
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/app.js" defer></script>
+</head>
+
+<body>
+    <a class="atalho" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <header class="cabecalho">
+        <div class="identidade">
+            <span class="selo">PROJETO PILOTO</span>
+            <h1>Monitor do PPA do Coren-GO</h1>
+            <p>
+                Monitoramento estratégico, orçamentário,
+                financeiro e de custos.
+            </p>
+        </div>
+
+        <button id="botaoImprimir" type="button">
+            Imprimir ou salvar em PDF
+        </button>
+    </header>
+
+    <nav class="navegacao" aria-label="Navegação principal">
+        <a href="#visaoExecutiva">Visão Executiva</a>
+        <a href="#listaIniciativas">Iniciativas</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#auditoria">Auditoria</a>
+    </nav>
+
+    <main id="conteudo">
+        <section id="visaoExecutiva" class="secao">
+            <h2>Visão Executiva</h2>
+
+            <div class="aviso">
+                Este painel contém dados de teste e dados fictícios
+                para validação da metodologia.
+            </div>
+
+            <div id="resumoExecutivo" class="gradeCartoes">
+                <p>Carregando indicadores...</p>
+            </div>
+        </section>
+
+        <section id="listaIniciativas" class="secao">
+            <h2>Iniciativas do projeto piloto</h2>
+
+            <div id="filtros"></div>
+
+            <div id="cartoesIniciativas" class="gradeIniciativas">
+                <p>Carregando iniciativas...</p>
+            </div>
+        </section>
+
+        <section id="metodologia" class="secao">
+            <h2>Metodologia de custos</h2>
+
+            <p>
+                O custo ABC simplificado demonstra os recursos internos
+                consumidos na execução de cada iniciativa.
+            </p>
+
+            <div id="memoriaCalculo"></div>
+        </section>
+
+        <section id="auditoria" class="secao">
+            <h2>Auditoria dos dados</h2>
+
+            <div id="dadosAuditoria">
+                <p>Aguardando validação dos dados.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Conselho Regional de Enfermagem de Goiás</p>
+        <p>Projeto piloto do Monitor do PPA</p>
+    </footer>
+
+    <noscript>
+        Este painel precisa do JavaScript ativado para apresentar os dados.
+    </noscript>
+</body>
+</html>
